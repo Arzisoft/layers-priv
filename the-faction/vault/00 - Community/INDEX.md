@@ -1,12 +1,12 @@
 # The Faction — Community (best of)
 
-247 of 343 community posts kept as Markdown; the rest stay in `raw/posts/` as JSON.
+251 of 350 community posts kept as Markdown; the rest stay in `raw/posts/` as JSON.
 
 | post | space | reactions | comments |
 |---|---|---|---|
 | [Quick question for the room — what's your go-to stack right now? I'm n](the-pit-quick-question-for-the-room-whats-your-go-to-stack.md) | The Pit | 2 | 59 |
 | [Welcome to The Faction, I’m your host Matt Murphy, and I’m honored to ](welcome-to-the-faction-welcome-to-the-faction-im-your-host-matt-murphy-an.md) | Welcome To The Faction | 53 | 0 |
-| [HOW THIS WORKS — Read This First](welcome-to-the-faction-how-this-works-read-this-first.md) | Welcome To The Faction | 13 | 37 |
+| [HOW THIS WORKS — Read This First](welcome-to-the-faction-how-this-works-read-this-first.md) | Welcome To The Faction | 14 | 38 |
 | [BIG NEWS FACTION COMMUNITY MEMBERS!!!](welcome-to-the-faction-big-news-faction-community-members.md) | Welcome To The Faction | 19 | 8 |
 | [Alright — what are you building right now? Not your big vision. Not yo](the-pit-alright-what-are-you-building-right-now-not-your-b.md) | The Pit | 1 | 21 |
 | [STATE YOUR BUSINESS](welcome-to-the-faction-state-your-business.md) | Welcome To The Faction | 1 | 20 |
@@ -33,6 +33,7 @@
 | [19 — The Ten-Decisions Gate](the-forge-19-the-ten-decisions-gate.md) | The Forge | 3 | 5 |
 | [Every startup hits the chicken-and-egg wall. You need expensive infras](the-pit-every-startup-hits-the-chicken-and-egg-wall-you-ne.md) | The Pit | 7 | 0 |
 | [If you have shipped a mobile app, this one matters. Your user opens yo](the-pit-if-you-have-shipped-a-mobile-app-this-one-matters.md) | The Pit | 5 | 2 |
+| [An attacker sent a phishing email from your domain. SPF, DKIM, DMARC a](the-pit-an-attacker-sent-a-phishing-email-from-your-domain.md) | The Pit | 3 | 4 |
 | [If your app touches patient data, student health records, or any prote](the-pit-if-your-app-touches-patient-data-student-health-re.md) | The Pit | 3 | 4 |
 | [Every builder in here has lived this. You built it in a weekend. You h](the-pit-every-builder-in-here-has-lived-this-you-built-it.md) | The Pit | 7 | 0 |
 | [FACTION!](the-pit-faction.md) | The Pit | 6 | 1 |
@@ -96,8 +97,10 @@
 | [Lovable just raised $330 million at a $6.6 billion valuation. Cursor i](the-pit-lovable-just-raised-330-million-at-a-66-billion-va.md) | The Pit | 1 | 2 |
 | [Shoutout to Alireza for requesting this one. You keep patching v1 beca](the-pit-shoutout-to-alireza-for-requesting-this-one-you-ke.md) | The Pit | 3 | 0 |
 | [Yesterday’s EU AI Act post hit 100K views and the top pushback was “I ](the-pit-yesterdays-eu-ai-act-post-hit-100k-views-and-the-t.md) | The Pit | 1 | 2 |
+| [HAPPY FRIDAY FACTION GANG!!!](the-pit-happy-friday-faction-gang.md) | The Pit | 3 | 0 |
 | [Five new courses are live in The Faction Community right now. Every on](the-pit-five-new-courses-are-live-in-the-faction-community.md) | The Pit | 2 | 1 |
 | [WARNING.](the-pit-warning.md) | The Pit | 2 | 1 |
+| [Your enterprise deal will not close without SOC 2. That compliance has](the-pit-your-enterprise-deal-will-not-close-without-soc-2.md) | The Pit | 1 | 2 |
 | [I hope this is the right place to ask advice I'm busy building this Fl](the-mentoring-lounge-i-hope-this-is-the-right-place-to-ask-advice-im-bu.md) | The Mentoring Lounge | 2 | 1 |
 | [Hey everyone!](welcome-to-the-faction-hey-everyone.md) | Welcome To The Faction | 2 | 1 |
 | [Two thousand app review requests.](the-pit-two-thousand-app-review-requests.md) | The Pit | 3 | 0 |
@@ -122,12 +125,11 @@
 | [Your app just showed a user your database name, your server file path,](the-pit-your-app-just-showed-a-user-your-database-name-you.md) | The Pit | 2 | 0 |
 | [You are using the same AI to build and review your code and here is wh](the-pit-you-are-using-the-same-ai-to-build-and-review-your.md) | The Pit | 2 | 0 |
 | [THE LAY OF THE LAND](welcome-to-the-faction-the-lay-of-the-land.md) | Welcome To The Faction | 0 | 2 |
+| [Two frontier models shipped in 72 hours and most builders never checke](the-pit-two-frontier-models-shipped-in-72-hours-and-most-b.md) | The Pit | 2 | 0 |
 | [One webhook failed and it took your authentication, your dashboard, an](the-pit-one-webhook-failed-and-it-took-your-authentication.md) | The Pit | 2 | 0 |
 | [You accept Stripe webhooks without verifying the signature. Anyone who](the-pit-you-accept-stripe-webhooks-without-verifying-the-s.md) | The Pit | 2 | 0 |
-| [HAPPY FRIDAY FACTION GANG!!!](the-pit-happy-friday-faction-gang.md) | The Pit | 2 | 0 |
 | [Your first production incident will happen.](the-pit-your-first-production-incident-will-happen.md) | The Pit | 2 | 0 |
 | [Your AI generated a complete feature in twenty minutes.](the-pit-your-ai-generated-a-complete-feature-in-twenty-min.md) | The Pit | 2 | 0 |
-| [Your enterprise deal will not close without SOC 2. That compliance has](the-pit-your-enterprise-deal-will-not-close-without-soc-2.md) | The Pit | 1 | 1 |
 | [1.3 billion people live with a disability. Your AI built your entire p](the-pit-13-billion-people-live-with-a-disability-your-ai-b.md) | The Pit | 1 | 1 |
 | [Hello builders, I am in South Africa currently learning this ins and o](welcome-to-the-faction-hello-builders-i-am-in-south-africa-currently-lear.md) | Welcome To The Faction | 1 | 1 |
 | [Silence during an outage is the fastest way to lose every customer you](the-pit-silence-during-an-outage-is-the-fastest-way-to-los.md) | The Pit | 2 | 0 |
@@ -224,8 +226,10 @@
 | [THE PIPELINE PROTOCOL — 8 Steps From Stranger to Signed](the-forge-the-pipeline-protocol-8-steps-from-stranger-to-sig.md) | The Forge | 0 | 0 |
 | [AI shopping agents are making purchase decisions on behalf of humans r](the-pit-ai-shopping-agents-are-making-purchase-decisions-o.md) | The Pit | 0 | 0 |
 | [An attacker just grabbed your Google Login authorization code on a mob](the-pit-an-attacker-just-grabbed-your-google-login-authori.md) | The Pit | 0 | 0 |
+| [An attacker just skipped your entire form and sent raw data straight t](the-pit-an-attacker-just-skipped-your-entire-form-and-sent.md) | The Pit | 0 | 0 |
 | [Thousands of people scraped your prompt this week, ran it in their bui](the-pit-thousands-of-people-scraped-your-prompt-this-week.md) | The Pit | 0 | 0 |
 | [THE DEPLOYMENT LADDER — 3 Phases of AI Adoption](the-forge-the-deployment-ladder-3-phases-of-ai-adoption.md) | The Forge | 0 | 0 |
+| [Your server just charged the same card twice, provisioned the same use](the-pit-your-server-just-charged-the-same-card-twice-provi.md) | The Pit | 0 | 0 |
 | [If you are running a business on rented software you only use 20% of, ](the-pit-if-you-are-running-a-business-on-rented-software-y.md) | The Pit | 0 | 0 |
 | [THE REPLACEMENT PROTOCOL — Find Friction. Simplify. Replace Yourself.](the-forge-the-replacement-protocol-find-friction-simplify-re.md) | The Forge | 0 | 0 |
 | [Your database might have perfect row-level security. Your cache sits i](the-pit-your-database-might-have-perfect-row-level-securit.md) | The Pit | 0 | 0 |

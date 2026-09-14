@@ -2,8 +2,8 @@
 space: "Welcome To The Faction"
 author: "Matt Murphy"
 post_id: 103600706
-reactions: 13
-comments: 37
+reactions: 14
+comments: 38
 published: "2026-06-22T19:34:55Z"
 source: "https://the-faction.mn.co/posts/103600706"
 ---
@@ -295,6 +295,10 @@ Let's get to work.
   > A lot of people treat compliance like a checklist you bolt onto the product at the end. In reality, the strongest systems bake it into identity, permissions, data handling, logging, retention, auditability, testing, and operational process from the beginning.
   > 
   > So as you work through the Foundations, don’t worry about whether you’re “building enough.” Focus on understanding why each layer exists, what risk it controls, and what evidence proves the system is actually doing what it claims. 👊😎
+
+**Muhsanat Arnab** · 2026-09-14
+
+> Thanks buddy. Keep the recourses free and effective as it is now.You will be blessed for helping people that really wants to learn and earn.
 
 
 ---

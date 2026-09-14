@@ -2,7 +2,7 @@
 space: "The Pit"
 author: "Matt Murphy"
 post_id: 107193848
-reactions: 2
+reactions: 3
 comments: 0
 published: "2026-09-11T13:00:00Z"
 source: "https://the-faction.mn.co/posts/107193848"

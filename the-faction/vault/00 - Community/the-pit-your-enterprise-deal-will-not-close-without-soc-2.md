@@ -3,7 +3,7 @@ space: "The Pit"
 author: "Matt Murphy"
 post_id: 107201551
 reactions: 1
-comments: 1
+comments: 2
 published: "2026-09-11T14:00:02Z"
 source: "https://the-faction.mn.co/posts/107201551"
 ---
@@ -42,6 +42,10 @@ Right? The enterprise gate, it's still there. You're gonna have to get the SOC t
 **Rob Smith** · 2026-09-11
 
 > Thanks Matt, I’m bracing myself for this.
+
+  ↳ **Matt Murphy** · 2026-09-11
+
+  > [Rob Smith](https://the-faction.mn.co/members/40329969) planning ahead is certainly a step in reducing the bracing required to get through it lol! 👊😎
 
 
 ---

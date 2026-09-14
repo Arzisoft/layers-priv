@@ -1,9 +1,13 @@
 # The Faction — Community Videos (transcripts)
 
-173 videos, 58,125 words (2 re-posts of the same video folded in). Transcripts only — no video files are kept. Source: Mighty's own Deepgram auto-captions (Vimeo auto-subtitles for embeds).
+177 videos, 59,534 words (2 re-posts of the same video folded in). Transcripts only — no video files are kept. Source: Mighty's own Deepgram auto-captions (Vimeo auto-subtitles for embeds).
 
 | date | video | space | length |
 |---|---|---|---|
+| 2026-09-13 | [An attacker sent a phishing email from your domain. SPF, DKIM, DMARC a](2026-09-13-the-pit-an-attacker-sent-a-phishing-email-from-your-domain.transcript.md) | The Pit | 2m15s |
+| 2026-09-13 | [An attacker just skipped your entire form and sent raw data straight t](2026-09-13-the-pit-an-attacker-just-skipped-your-entire-form-and-sent.transcript.md) | The Pit | 2m05s |
+| 2026-09-12 | [Your server just charged the same card twice, provisioned the same use](2026-09-12-the-pit-your-server-just-charged-the-same-card-twice-provi.transcript.md) | The Pit | 2m38s |
+| 2026-09-12 | [Two frontier models shipped in 72 hours and most builders never checke](2026-09-12-the-pit-two-frontier-models-shipped-in-72-hours-and-most-b.transcript.md) | The Pit | 2m20s |
 | 2026-09-11 | [Thousands of people scraped your prompt this week, ran it in their bui](2026-09-11-the-pit-thousands-of-people-scraped-your-prompt-this-week.transcript.md) | The Pit | 2m20s |
 | 2026-09-11 | [Your enterprise deal will not close without SOC 2. That compliance has](2026-09-11-the-pit-your-enterprise-deal-will-not-close-without-soc-2.transcript.md) | The Pit | 2m01s |
 | 2026-09-10 | [McKinsey's State of AI: 32% of companies stopped buying software and b](2026-09-10-the-pit-mckinseys-state-of-ai-32-of-companies-stopped-buyi.transcript.md) | The Pit | 2m35s |

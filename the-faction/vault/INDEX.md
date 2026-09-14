@@ -17,8 +17,8 @@ Offline mirror of https://the-faction.mn.co. Built by `tools/mighty_build_vault.
 
 ## Community
 
-[00 - Community/INDEX.md](00 - Community/INDEX.md) — 247 best-of posts from 343 harvested.
+[00 - Community/INDEX.md](00 - Community/INDEX.md) — 251 best-of posts from 350 harvested.
 
 ## Community videos
 
-[00 - Community Videos/INDEX.md](00 - Community Videos/INDEX.md) — 173 video transcripts (58,125 words); no video files kept.
+[00 - Community Videos/INDEX.md](00 - Community Videos/INDEX.md) — 177 video transcripts (59,534 words); no video files kept.
