@@ -1,0 +1,176 @@
+{
+  "platform": "mightynetworks",
+  "community": "the-faction",
+  "title": "The Faction (Matt Murphy)",
+  "url": "https://the-faction.mn.co",
+  "network_space_id": 23776511,
+  "auth_probe_post_id": 103821084,
+  "joined": "2026-08-11",
+  "creator_made_free": "2026-08-11",
+  "prior_manual_pulls": "C:\\Users\\wmmb\\Desktop\\MMurphylessons\\MattMurphy",
+  "curriculum_collection": {
+    "id": 3107898,
+    "name": "Free AI Engineering Curriculum",
+    "spaces": {
+      "the-foundation": {
+        "space_id": 23777123,
+        "subtitle": "CADE 13-Layer Builder Certification",
+        "lessons": 13,
+        "quizzes": 13,
+        "note": "Layers 1-13, one lesson + one exam each. Space id captured 2026-08-17 via --discover; user also has Layer 1-13 kit PDFs in prior_manual_pulls."
+      },
+      "the-mastery": {
+        "space_id": 24191170,
+        "subtitle": "Tier 4. Platform Mastery",
+        "lessons": 49,
+        "quizzes": 49,
+        "subcourses": [
+          "SaaS Build (M1-7)",
+          "Database Design (M1-7)",
+          "Auth (M1-7)",
+          "Next.js Frontend (M1-7)",
+          "Supabase/Postgres Backend (M1-7)",
+          "API Design (M1-7)",
+          "Stripe Payments (M1-7)"
+        ]
+      },
+      "the-industry": {
+        "space_id": 24251863,
+        "subtitle": "Industry verticals for AI Directed Engineers",
+        "lessons": 21,
+        "quizzes": 21,
+        "subcourses": [
+          "Education (M1-7)",
+          "Construction (M1-7)",
+          "third vertical (M1-7)"
+        ]
+      },
+      "the-vault": {
+        "space_id": 24302166,
+        "subtitle": "Security Foundations for Builders",
+        "lessons": 21,
+        "quizzes": 21,
+        "subcourses": [
+          "Security Foundations (M1-7, orig)",
+          "AI-Generated Code Audit (M1-7, new)",
+          "Regulatory/Compliance (M1-7, new)"
+        ]
+      },
+      "the-launchpad": {
+        "space_id": 24388894,
+        "subtitle": "Freelance/business - launch what you built",
+        "lessons": 21,
+        "quizzes": 21,
+        "subcourses": [
+          "Freelance/Business Launch (M1-7, orig)",
+          "Positioning (M1-7, new)",
+          "Validation (M1-7, new)"
+        ]
+      },
+      "the-frontier": {
+        "space_id": 24391596,
+        "subtitle": "Agent Orchestration Fundamentals",
+        "lessons": 21,
+        "quizzes": 21,
+        "subcourses": [
+          "Agent Orchestration Fundamentals (M1-7, orig)",
+          "Context Engineering (M1-7, new)",
+          "Prompting Maturity (M1-7, new)"
+        ]
+      }
+    }
+  },
+  "community_collection": {
+    "id": 3093709,
+    "name": "The Faction Community",
+    "spaces": {
+      "welcome-to-the-faction": {
+        "space_id": 23776513,
+        "posts": 61
+      },
+      "the-pit": {
+        "space_id": 23777071,
+        "posts": 160
+      },
+      "the-mentoring-lounge": {
+        "space_id": 24188271,
+        "posts": 9
+      },
+      "the-forge": {
+        "space_id": 23777162,
+        "posts": 41
+      }
+    }
+  },
+  "harvested": {
+    "date": "2026-08-17",
+    "posts": 505,
+    "spaces": 10,
+    "lessons": 76,
+    "quizzes": 76,
+    "community_posts": 271,
+    "lesson_chars": 923000,
+    "comments": {
+      "total": 534,
+      "root": 305,
+      "replies": 229,
+      "coverage": "100% (matches the site's own comment_count / root_comment_count)",
+      "endpoint": "GET /api/web/v1/spaces/<net>/posts/<pid>/comments returns ROOT comments only, each with reply_count + a TRUNCATED latest_replies preview (a 4-reply thread ships 1). Full replies come from the same endpoint with ?reply_to_id=<comment_id> - there is no /comments/<id>/replies route (404)."
+    },
+    "media": {
+      "images": 424,
+      "bytes": "167 MB",
+      "note": "Downloaded to resources/images/. imgix query params stripped so the original asset is kept, not a resize."
+    },
+    "gaps": [
+      "Quiz/exam QUESTIONS not harvested: /spaces/<net>/posts/<id>/quiz_questions returns 403 (route exists, access denied) until a quiz ATTEMPT is started. Starting 76 attempts would write to the account's course progress, gamification and leaderboard. Not done without an explicit go-ahead.",
+      "VIDEOS (123, all community - The Pit 100, Welcome 23; ZERO curriculum videos) not downloaded. The post record carries only a thumbnail; media2-production.mightynetworks.com/asset/<uuid>/<name> returns 403 for every unsigned path, so playback needs a signed URL the app issues at play time. The player also does not mount on /posts/<id> (no <video> element, empty iframe), so the stream URL never appears in a page probe."
+    ]
+  },
+  "harvest_notes": {
+    "content_tree_api": "GET /api/web/v1/spaces/<space_id>/content returns full module/lesson tree (thin records: title, slug, description-preview, image_url, prompt_type). Verified working on the-mastery.",
+    "body_text": "Lesson BODY hangs off the NETWORK space id, not the course space id: GET /api/web/v1/spaces/23776511/posts/<post_id>. Using the course space id returns the thin stub; /api/web/v1/posts/<id> is a 404. Confirmed 2026-08-17.",
+    "is_thin_flag": "'is_thin': true on a post record is Mighty's ACCESS flag, not a compression option. Anonymous callers always get is_thin:true with no body field. Same url returns the body once a session exists. If harvested posts come back thin, the session lapsed - re-run --harvest, it skips files already on disk.",
+    "auth": "BU SSO (Google OAuth -> BU Shibboleth -> Duo 2FA). The auth cookie is a SESSION cookie: it does NOT survive closing the browser, even with a persistent profile. So login + discover + harvest must all run in ONE process invocation (tools/mighty_harvest.py --discover --harvest). Persistent profile still beats storage_state for Cloudflare clearance.",
+    "auth_detection": "ONLY /api/web/v1/users/current distinguishes anon from authed (401/403 anon, 200 authed). Since the creator made the curriculum free, /content, /role_map, /current_user/progress and /spaces/<net>/posts/<id> ALL return 200 to anonymous visitors - any login check built on those is a false positive. That bug is what made the 2026-08-12 attempt 'succeed' at login and then scrape an empty logged-out page.",
+    "not_bot_detection": "The 2026-08-12 conclusion 'Cloudflare blocks the scrape' was wrong. The probe captured 15/15 API responses at HTTP 200. Two real causes: (a) the false-positive auth check above, (b) DOM scraping instead of asking the API. Issue every API call with fetch() from INSIDE the authenticated page (page.evaluate) - it inherits the SPA's cookies/referer/Sec-Fetch headers and is indistinguishable from the app. Caveat: in-page fetch is same-origin, so it throws 'TypeError: Failed to fetch' whenever the page is away at the SSO provider - wait for the page to be back on *.mn.co before calling.",
+    "already_have_in_MattMurphy": "The Mastery / SaaS Build M1-7 (all), Database Design M1 only. Missing there: Database Design M2-7, all Auth M1-7. Plus Layer 1-13 kit PDFs (likely The Foundation)."
+  },
+  "output_format": "Match MattMurphy/md/*.md study-guide style (H1 title, subtitle line, blockquote summary, ## sections: What This Covers / Key Concepts / Your Toolkit / Exam Topics / Common Pitfalls / Self-Assessment / AI Audit Prompt / What's Next / Certification Pathway).",
+  "harvested_2026_09_10": {
+    "date": "2026-09-10",
+    "posts_total": 782,
+    "posts_new_this_run": 277,
+    "note": "Major curriculum expansion: Mastery +28 lessons (4 new tracks: Next.js, Supabase/Postgres, API Design, Stripe Payments), Vault +14 (2 new tracks: AI-code audit, Regulatory/Compliance), Launchpad +14 (2 new tracks: Positioning, Validation), Frontier +14 (2 new tracks: Context Engineering, Prompting Maturity). Foundation and Industry unchanged. Community: +57 Pit posts, +7 Welcome, +3 Mentoring Lounge. Comments: 31 new across 24 threads, 136 new replies. Media: 191 new images downloaded."
+  },
+  "harvested_2026_09_11": {
+    "date": "2026-09-11",
+    "posts_total": 892,
+    "posts_new_this_run": 110,
+    "posts_refreshed": 120,
+    "lessons_total": 181,
+    "note": "5 new tracks (35 lessons + 35 exams): Mastery +7 (Cursor: Setup, Composer/Chat, Multi-File Editing, Rules/Context Files, Debugging, Extensions, Advanced Patterns), Vault +14 (Secrets Management M1-7, Privacy M1-7), Launchpad +7 (Pricing M1-7), Frontier +7 (Agent Memory M1-7). Foundation and Industry unchanged. Community: +5 Pit posts. 4 edited bodies (Mastery intro 3.6k->14.1k chars, Vault/Launchpad/Frontier Overviews) - old versions kept in raw/posts/_history/. Comments: 17 threads new or grown, 9 replies filled; now 164 threads / 620 comments, 0 duplicate ids. Media: +75 images (690 total).",
+    "incremental_since": "From this run on, mighty_harvest.py refetches posts whose tree updated_at/last_edited_at/comment_count moved (earlier runs skipped any post or comment thread already on disk, so edits and new comments on old posts were missed). Comments and replies merge by id; nothing is dropped."
+  },
+  "harvested_2026_09_12": {
+    "date": "2026-09-12",
+    "gaps_closed": "Both 2026-08-17 gaps are closed, read-only - no quiz attempt started, no video file downloaded.",
+    "exam_questions": {
+      "exams": 181,
+      "questions": 4525,
+      "per_course": {"The Foundation": 325, "The Mastery": 1400, "The Industry": 525, "The Vault": 875, "The Launchpad": 700, "The Frontier": 700},
+      "answer_key": "every question has choices[].is_correct (all single-answer); rendered into each exam's lesson.md with the correct choice marked",
+      "where": "raw/quiz_questions/<question_id>.json",
+      "method": "Each question is its own post: a quiz record's quiz_question_ids are post ids, and GET /api/web/v1/spaces/<net>/posts/<qid> returns the full record. The course is public, so this works anonymously over plain HTTP (mighty_harvest.py --quizzes --http, no browser). /quiz_questions still 403s without an attempt - not used."
+    },
+    "video_transcripts": {
+      "videos": 175,
+      "unique": 173,
+      "reposts_folded": 2,
+      "words": 58125,
+      "where": "raw/captions/<asset_id>.vtt (+ vimeo-1202954652.en-x-autogen.vtt); vault/00 - Community Videos/*.transcript.md",
+      "method": "Mighty auto-captions every upload (Deepgram): GET /videos/<asset_id>/captions returns an HLS subtitle playlist with a CloudFront-signed VTT URL. The one Vimeo embed (START HERE) via yt-dlp --write-subs --sub-langs en-x-autogen --skip-download on player.vimeo.com. No media kept - PC is short on disk and RAM.",
+      "note": "The 2026-08-17 conclusion 'videos not downloadable' was wrong: the post record has assets[] with the asset id, and the caption route is same-origin."
+    }
+  }
+}

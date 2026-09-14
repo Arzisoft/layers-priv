@@ -1,0 +1,62 @@
+---
+space: "The Pit"
+author: "Matt Murphy"
+post_id: 104880674
+reactions: 4
+comments: 3
+published: "2026-07-21T22:37:38Z"
+source: "https://the-faction.mn.co/posts/104880674"
+---
+
+# This is the conversation nobody in the AI space is having.
+
+This is the conversation nobody in the AI space is having.
+
+The LLMs were never designed for us to take their outputs and sell them as commercial products.
+
+The gap between speed and quality is engineering judgment. That is exactly what this community exists to teach.
+
+Watch this one. It is the entire thesis for Faction’s AI Directed Engineering program.
+
+-MM
+
+---
+
+## Video transcript
+
+_deepgram auto-captions (Mighty) · 2m13s_
+
+The LLMs were never built for this. Not a single one of them. When OpenAI, Anthropic, Google, Meta, X, and Microsoft built all these platforms, they never set out to solve the problem that millions of people would take the outputs and try to sell them as commercial products to paying customers. So let me say that again. Nobody designed these tools expecting you to turn a twenty dollars a month subscription into a product that you can sell for twenty million dollars Will they build automations on your local machine?
+
+Yep. Will they build hobby tools for you all day long? Yep. Do they work on your local machine every single time? They certainly do.
+
+But when everyone got opportunistic and said, I'm going to build the next big thing, the gap between what these tools were designed to do and what everyone expects them to do became the single biggest trap in software right now. And here's the part nobody's telling you. The LLMs have no reason to go back and fix it. There's no business case for OpenAI to reengineer their model so your SaaS passes a security audit. There's no roadmap at Anthropic that says make sure VibeCoders can ship production ready enterprise software.
+
+That's not their problem. It was never their problem. So what we got? We got speed. We got unbelievable speed, but we did not get quality.
+
+And speed without quality is a prototype looking for danger. But speed with quality is a real product. And the gap between those two things is engineering judgment. That is what Faction's AI directed engineering exists to solve. You take the speed the LLMs give you and you add the engineering judgment they were never designed to provide you with.
+
+The verification, the compliance, the security, the infrastructure that turns a build into a real business. The LLMs gave us the most powerful building tools in history. That's the truth. But nobody told you they were never meant to be a finished product. Now you know.
+
+I'm telling you this is how it works. And knowing is the difference between a VibeCoder and an AI directed engineer. And that is a win.
+
+
+---
+
+## Discussion
+
+**James Alan** · 2026-07-21
+
+> This ties into my project; people will need proof, at scale.
+
+  ↳ **Matt Murphy** · 2026-07-22
+
+  > Facts!
+
+**Shaf Cangil** · 2026-07-22
+
+> Agreed.
+
+
+---
+_Source: https://the-faction.mn.co/posts/104880674_
